@@ -1,11 +1,11 @@
 <?php
 
-namespace MediaWiki\Extension\SoulsborneWikis\Tests;
+namespace MediaWiki\Extension\SBWTweaks\Tests;
 
-use MediaWiki\Extension\SoulsborneWikis\FooterHooks;
+use MediaWiki\Extension\SBWTweaks\FooterHooks;
 
 /**
- * @coversDefaultClass \MediaWiki\Extension\SoulsborneWikis\FooterHooks
+ * @coversDefaultClass \MediaWiki\Extension\SBWTweaks\FooterHooks
  */
 class HooksTest extends \MediaWikiUnitTestCase {
 

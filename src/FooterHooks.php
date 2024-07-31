@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\Extension\SoulsborneWikis;
+namespace MediaWiki\Extension\SBWTweaks;
 
 use Skin;
 use Html;
