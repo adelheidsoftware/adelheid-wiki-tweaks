@@ -12,7 +12,7 @@ class FooterHooks implements \MediaWiki\Hook\SkinAddFooterLinksHook {
 	 * @param array $footerlinks
 	 * @return void
 	 */
-	public static function onSkinAddFooterLinks( Skin $skin, string $key, array &$footerlinks ) {
+	public function onSkinAddFooterLinks( Skin $skin, string $key, array &$footerlinks ) {
 		if( $key === 'places' ) {
 			$footerlinks['privacy'] = Html::rawElement ( 'a',
 				[
