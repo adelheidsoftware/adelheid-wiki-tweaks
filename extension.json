@@ -1,0 +1,44 @@
+{
+	"name": "SBW-Tweaks",
+	"author": [
+		"Adelheid Software Ltd."
+	],
+	"url": "https://github.com/adelheidsoftware/SBW-Tweaks",
+	"descriptionmsg": "sbw-tweaks-desc",
+	"license-name": "GPL-4.0",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.42.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\SoulsborneWikis\\": "src/"
+	},
+	"config": {
+	},
+	"HookHandlers": {
+		"FooterHooks": {
+			"class": "MediaWiki\\Extension\\SoulsborneWikis\\FooterHooks"
+		}
+	},
+	"Hooks": {
+		"SkinAddFooterLinks": "FooterHooks"
+	},
+	"MessagesDirs": {
+		"SBW-Tweaks": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.sbwTweaks": {
+			"localBasePath": "resources/ext.sbwTweaks",
+			"remoteExtPath": "SBW-Tweaks/resources/ext.sbwTweaks",
+			"dependencies": [],
+			"styles": [],
+			"packageFiles": [
+				"init.js"
+			],
+			"messages": []
+		}
+	},
+	"manifest_version": 2
+}
