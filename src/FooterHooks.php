@@ -2,19 +2,22 @@
 
 namespace MediaWiki\Extension\SoulsborneWikis;
 
+use Skin;
+use Html;
+
 class FooterHooks implements \MediaWiki\Hook\SkinAddFooterLinksHook {
 
 
 	/**
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/SkinAddFooterLinks
-	 * @param \Skin $skin
+	 * @param Skin $skin
 	 * @param string $key
-	 * @param array $footerlinks
+	 * @param array $footerItems
 	 * @return void
 	 */
-	public function onSkinAddFooterLinks( Skin $skin, string $key, array &$footerlinks ) {
+	public function onSkinAddFooterLinks( Skin $skin, string $key, array &$footerItems ) {
 		if( $key === 'places' ) {
-			$footerlinks['privacy'] = Html::rawElement ( 'a',
+			$footerItems['privacy'] = Html::rawElement ( 'a',
 				[
 					'href' => 'https://soulsborne.wiki/privacy',
 					'rel' => 'noreferrer noopener'
@@ -22,7 +25,7 @@ class FooterHooks implements \MediaWiki\Hook\SkinAddFooterLinksHook {
 			$skin->msg( 'Privacy' )->text()
 			);
 	
-			$footerlinks['terms'] = Html::rawElement ('a',
+			$footerItems['terms'] = Html::rawElement ('a',
 				[
 					'href' => 'https://soulsborne.wiki/terms',
 					'rel' => 'noreferrer noopener'
@@ -30,7 +33,7 @@ class FooterHooks implements \MediaWiki\Hook\SkinAddFooterLinksHook {
 			$skin->msg ( 'Terms' )->text()
 			);
 	
-			$footerlinks['contact'] = Html::rawElement ('a',
+			$footerItems['contact'] = Html::rawElement ('a',
 				[
 					'href' => 'https://adelheid.org/contact',
 					'rel' => 'noreferrer noopener'
