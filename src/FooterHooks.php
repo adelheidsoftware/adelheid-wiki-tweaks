@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\SoulsborneWikis;
 
-class FooterHooks implements \MediaWiki\Hook\SkinAddFooterLinks {
+class FooterHooks implements \MediaWiki\Hook\SkinAddFooterLinksHook {
 
 
 	/**

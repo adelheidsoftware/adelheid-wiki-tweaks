@@ -22,7 +22,7 @@
 		}
 	},
 	"Hooks": {
-		"SkinAddFooterLinks": "FooterHooks"
+		"SkinAddFooterLinksHook": "FooterHooks"
 	},
 	"MessagesDirs": {
 		"SBW-Tweaks": [
