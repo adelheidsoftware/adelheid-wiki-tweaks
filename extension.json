@@ -6,7 +6,7 @@
 	"url": "https://github.com/adelheidsoftware/SBW-Tweaks",
 	"version": "1.0.1",
 	"descriptionmsg": "sbw-tweaks-desc",
-	"license-name": "GPL-4.0",
+	"license-name": "GPL-3.0",
 	"type": "other",
 	"requires": {
 		"MediaWiki": ">= 1.42.0"
