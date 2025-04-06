@@ -1,5 +1,5 @@
-# SBW-Tweaks
-A MediaWiki extension that provides additional functionality specific to the Soulsborne Wikis.
+# adelheid-wiki-tweaks
+A MediaWiki extension that provides additional functionality specific to wikis run by Adelheid Software.
 
 This extension modifies the footer links of our MediaWiki installation.
 
