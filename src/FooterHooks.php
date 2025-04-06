@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\Extension\SBWTweaks;
+namespace MediaWiki\Extension\AdelheidTweaks;
 
 use Skin;
 use Html;
@@ -19,7 +19,7 @@ class FooterHooks implements \MediaWiki\Hook\SkinAddFooterLinksHook {
 		if( $key === 'places' ) {
 			$footerItems['privacy'] = Html::rawElement ( 'a',
 				[
-					'href' => 'https://soulsborne.wiki/privacy',
+					'href' => 'https://adelheid.org/privacy',
 					'rel' => 'noreferrer noopener'
 				],
 			$skin->msg( 'Privacy' )->text()
@@ -27,7 +27,7 @@ class FooterHooks implements \MediaWiki\Hook\SkinAddFooterLinksHook {
 	
 			$footerItems['terms'] = Html::rawElement ('a',
 				[
-					'href' => 'https://soulsborne.wiki/terms',
+					'href' => 'https://adelheid.org/terms',
 					'rel' => 'noreferrer noopener'
 				],
 			$skin->msg ( 'Terms' )->text()

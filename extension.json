@@ -1,27 +1,27 @@
 {
-	"name": "SBW-Tweaks",
+	"name": "AdelheidTweaks",
 	"author": [
 		"Adelheid Software Ltd."
 	],
-	"url": "https://github.com/adelheidsoftware/SBW-Tweaks",
+	"url": "https://github.com/adelheidsoftware/adelheid-wiki-tweaks",
 	"version": "1.0.5",
-	"descriptionmsg": "sbw-tweaks-desc",
+	"descriptionmsg": "aw-tweaks-desc",
 	"license-name": "GPL-3.0-or-later",
 	"type": "other",
 	"requires": {
 		"MediaWiki": ">= 1.42.0"
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extension\\SBWTweaks\\": "src/"
+		"MediaWiki\\Extension\\AdelheidTweaks\\": "src/"
 	},
 	"config": {
 	},
 	"HookHandlers": {
 		"FooterHooks": {
-			"class": "MediaWiki\\Extension\\SBWTweaks\\FooterHooks"
+			"class": "MediaWiki\\Extension\\AdelheidTweaks\\FooterHooks"
 		},
 		"ParserFunctionsHookHandler": {
-			"class": "MediaWiki\\Extension\\SBWTweaks\\FunctionHooks"
+			"class": "MediaWiki\\Extension\\AdelheidTweaks\\FunctionHooks"
 		}
 	},
 	"Hooks": {
@@ -29,14 +29,14 @@
 		"ParserFirstCallInit": "ParserFunctionsHookHandler"
 	},
 	"MessagesDirs": {
-		"SBW-Tweaks": [
+		"AdelheidTweaks": [
 			"i18n"
 		]
 	},
 	"ResourceModules": {
-		"ext.sbwTweaks": {
-			"localBasePath": "resources/ext.sbwTweaks",
-			"remoteExtPath": "SBW-Tweaks/resources/ext.sbwTweaks",
+		"ext.awTweaks": {
+			"localBasePath": "resources/ext.awTweaks",
+			"remoteExtPath": "AdelheidTweaks/resources/ext.awTweaks",
 			"dependencies": [],
 			"styles": [],
 			"packageFiles": [

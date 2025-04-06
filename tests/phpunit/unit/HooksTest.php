@@ -1,11 +1,11 @@
 <?php
 
-namespace MediaWiki\Extension\SBWTweaks\Tests;
+namespace MediaWiki\Extension\AdelheidTweaks\Tests;
 
-use MediaWiki\Extension\SBWTweaks\FooterHooks;
+use MediaWiki\Extension\AdelheidTweaks\FooterHooks;
 
 /**
- * @coversDefaultClass \MediaWiki\Extension\SBWTweaks\FooterHooks
+ * @coversDefaultClass \MediaWiki\Extension\AdelheidTweaks\FooterHooks
  */
 class HooksTest extends \MediaWikiUnitTestCase {
 

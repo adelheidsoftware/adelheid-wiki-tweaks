@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\Extension\SBWTweaks;
+namespace MediaWiki\Extension\AdelheidTweaks;
 
 use Parser;
 use MediaWiki\MediaWikiServices;

@@ -1,5 +1,5 @@
 {
-	"name": "SBW-Tweaks",
+	"name": "AdelheidTweaks",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"

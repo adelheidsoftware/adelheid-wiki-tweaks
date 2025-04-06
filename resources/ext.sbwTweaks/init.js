@@ -1,6 +1,6 @@
 /**
- * @class mw.sbwTweaks
+ * @class mw.awTweaks
  * @singleton
  */
-mw.sbwTweaks = {
+mw.awTweaks = {
 };
