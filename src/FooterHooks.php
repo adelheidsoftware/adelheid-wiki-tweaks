@@ -27,7 +27,7 @@ class FooterHooks implements \MediaWiki\Hook\SkinAddFooterLinksHook {
 	
 			$footerItems['terms'] = Html::rawElement ('a',
 				[
-					'href' => 'https://adelheid.org/terms',
+					'href' => 'https://adelheid.org/wikis/terms',
 					'rel' => 'noreferrer noopener'
 				],
 			$skin->msg ( 'Terms' )->text()
